@@ -1,0 +1,57 @@
+# Otom Virtual Try-On API
+
+Generatif sanal deneme servisi: kullanıcının araç içi fotoğrafındaki **görünür tüm koltuklara** (ön, arka veya 4 koltuk) OpenRouter Gemini Image ile kılıf uygular.
+
+## Quick start
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
+# .env içine OPENROUTER_API_KEY ekleyin
+```
+
+### Streamlit test arayüzü
+
+```bash
+streamlit run streamlit_app.py
+```
+
+### FastAPI servisi
+
+```bash
+uvicorn app.main:app --reload --port 8000
+```
+
+## Pipeline
+
+| Adım | Açıklama |
+|------|----------|
+| 1. Vision | Fotoğraftaki görünür koltukları tespit eder (ön/arka/4 koltuk) |
+| 2. Ürün kompoziti | Configurator katmanlarından veya Shopify URL'den referans görsel |
+| 3. Generatif try-on | Her görünür koltuk için sırayla Gemini Image çağrısı |
+
+## Environment
+
+| Variable | Description |
+|----------|-------------|
+| `OPENROUTER_API_KEY` | Vision + image generation |
+| `OPENROUTER_VISION_MODEL` | Koltuk tespiti (varsayılan: `google/gemini-3.1-flash-image`) |
+| `OPENROUTER_IMAGE_MODEL` | Try-on görüntü modeli (varsayılan: `google/gemini-3.1-flash-image`) |
+| `TRYON_API_KEY` | Opsiyonel API key koruması |
+
+## API
+
+- `GET /health`
+- `POST /api/v1/tryon/composite`
+- `POST /api/v1/tryon/composite/stream` (SSE)
+
+`seat_target`: `auto` (varsayılan) veya tek koltuk override (`front_driver`, `front_passenger`, `rear_left`, `rear_right`, `rear_bench`).
+
+## Docker
+
+```bash
+docker build -t otom-tryon .
+docker run -p 8000:8000 --env-file .env otom-tryon
+```
