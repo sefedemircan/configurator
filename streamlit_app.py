@@ -24,7 +24,6 @@ from PIL import Image
 from app.config import get_settings
 from app.integrations.otomai_shopify import (
     CatalogProduct,
-    get_catalog_product_detail,
     search_catalog_products,
     shopify_configured,
 )
@@ -139,34 +138,31 @@ def _render_product_picker() -> ProductLayers | None:
 
     product_labels = [f"{p.title} — {p.price}" for p in products]
     selected_index = st.selectbox(
-        "Ürün seçin",
+        "Ürün / renk seçin",
         options=range(len(products)),
         format_func=lambda i: product_labels[i],
     )
     selected: CatalogProduct = products[selected_index]
+    selection_key = selected.selection_key or selected.title
 
-    if st.session_state.selected_product != selected.title:
-        with st.spinner("Ürün görseli yükleniyor..."):
-            try:
-                detailed = get_catalog_product_detail(selected.title)
-                st.session_state.selected_product = selected.title
-                st.session_state.selected_image_url = detailed.all_images[0]["url"]
-                selected = detailed
-                products[selected_index] = detailed
-            except Exception as exc:
-                st.warning(f"Detay alınamadı, önizleme kullanılıyor: {exc}")
-                st.session_state.selected_product = selected.title
-                st.session_state.selected_image_url = selected.image_url
+    if st.session_state.selected_product != selection_key:
+        # Variant satırları katalog yüklenirken detaydan açıldığı için
+        # tekrar detail çekip ilk galeri görseline düşürmüyoruz.
+        st.session_state.selected_product = selection_key
+        st.session_state.selected_image_url = selected.image_url
 
     chosen_image = st.session_state.selected_image_url or selected.image_url
-    st.image(chosen_image, caption=selected.title, use_container_width=True)
+    caption = selected.title
+    if selected.color and selected.color not in caption:
+        caption = f"{selected.product_title or selected.title} — {selected.color}"
+    st.image(chosen_image, caption=caption, use_container_width=True)
 
     layers = ProductLayers(base=chosen_image)
     st.session_state.product_reference = ProductReference(
-        title=selected.title,
+        title=selected.product_title or selected.title,
         handle=selected.handle,
         image_url=chosen_image,
-        shopify_id=selected.product_id,
+        shopify_id=selected.variant_id or selected.product_id,
         product_category="universal_koltuk_kilifi",
     )
     return layers
