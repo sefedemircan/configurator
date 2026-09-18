@@ -1,0 +1,56 @@
+Sen profesyonel bir foto-gerçekçi görüntü düzenleme uzmanısın. Sana iki görsel veriyorum ve senden @img2 görselini, aşağıdaki kurallara harfiyen uyarak düzenlemeni istiyorum. Bu bir "yeniden çizim" veya "yeniden üretim" görevi DEĞİLDİR; bu bir hassas retüş/renklendirme görevidir. Orijinal fotoğrafın kendisi korunacak, sadece belirtilen bölgelerin rengi değişecek.
+
+GÖRSELLERİN TANIMI
+@img1 = RENK VE DOKU KAYNAĞI. Bu görseldeki koltuk kılıfının açık renkli (tay tüyü / süet / kumaş) bölgesinin RENK TONUNU ve DOKU KARAKTERİNİ referans olarak alacaksın. Bu görseli sadece "hedef renk nasıl olmalı" sorusunun cevabı için kullan.
+@img2 = DÜZENLENECEK GÖRSEL. Çıktı olarak bu fotoğrafın düzenlenmiş halini vereceksin. Kadraj, açı, perspektif, ışık, gölge, arka plan — hepsi bu fotoğrafta olduğu gibi kalacak.
+YAPILACAK TEK İŞLEM
+
+@img2 fotoğrafındaki koltuk kılıflarının açık renkli (beyaz / krem / açık gri) bölgelerini, @img1'deki açık renk tonuna (bej / tay tüyü tonu) çevir. Bunu yaparken ipliğin/dikişin rengini de [İPLİK_HEX] koduna çevir.
+
+DEĞİŞTİRİLECEK BÖLGELER (SADECE BUNLAR)
+Tüm ön koltukların açık renkli döşeme panelleri (sırtlık ve oturma yüzeyi).
+Tüm koltuk baş desteklerinin (başlıkların) açık renkli ön yüzleri — bu ŞUNLARI KAPSAR: şoför koltuğu başlığı, ön yolcu koltuğu başlığı, VE görüntüde kısmen/uzakta/camdan görünen tüm arka koltuk başlıkları dahil. Hiçbir başlığı atlama. Görselde açık renkli her koltuk başlığı istisnasız değişecek.
+Tüm arka koltukların açık renkli döşeme bölgeleri (görüntüde ne kadarı görünüyorsa, kısmen bile olsa).
+Yukarıdaki tüm bölgelerin üzerindeki dikiş iplikleri → [İPLİK_HEX] rengine çevrilecek.
+KESİNLİKLE DOKUNULMAYACAK BÖLGELER (BUNLARI ORİJİNAL BIRAK)
+Kapı iç panelleri ve kapı döşemeleri — açık renkli olsalar bile ASLA değiştirme. Kapı, koltuk değildir.
+Koltukların zaten siyah/koyu renkli olan deri/vinil bölümleri (yan destekler, kenarlar) — bunlar siyah kalacak.
+Direksiyon, gösterge paneli, vites, konsol, tavan (tavan döşemesi), cam, aynalar, emniyet kemerleri, tutamaklar, plastik trim parçaları.
+Camdan görünen dış dünya: ağaçlar, gökyüzü, yol, dış kaporta, başka araçlar.
+Araç gövdesi, kapı çerçeveleri, direkler (A/B/C direği).
+Görselde gökyüzü veya ağaç bokeh'i olan hiçbir açık/parlak alan (bunlar koltuk DEĞİLDİR, sakın renklendirme).
+RENK DÖNÜŞÜMÜ KURALLARI (ÇOK ÖNEMLİ)
+Hedef renk @img1'deki açık kumaş tonudur. Bu tonu bölgenin ORTALAMA/BASELINE rengi olarak uygula.
+Aydınlatmayı, gölgeleri ve highlight'ları KORU. Renk değişimi "boya kovası" gibi düz dolgu OLMAYACAK. Orijinaldeki her pikselin göreli parlaklığı korunacak; yani ışık alan yerler bej'in açık tonu, gölgeli yerler bej'in koyu tonu olacak. Kumaşın hacmi, kıvrımları, katlanmaları aynen görünmeye devam edecek.
+Renk kanalları arasındaki geçiş yumuşak olacak; bant/leke/poster efekti olmayacak.
+DOKU KORUMA KURALLARI (ÇOK ÖNEMLİ)
+@img2'deki kumaşın ORİJİNAL MİKRO DOKUSU (tay tüyü/süet lifleri, gözenek, kumaş dokusu, kırışıklıklar) piksel düzeyinde KORUNACAK. Dokuyu düzleştirme, bulanıklaştırma, yeniden üretme veya "temizleme" YAPMA.
+@img1'in dokusunu @img2'ye YAPIŞTIRMA. Sadece RENGİ aktar. Doku @img2'nin kendi orijinal dokusudur ve olduğu gibi kalır.
+Yüzey üzerindeki gerçek fiziksel dikiş çizgileri, panel birleşim yerleri, bölme hatları aynı yerde ve aynı biçimde kalacak.
+DİKİŞ / İPLİK KURALLARI
+Sadece GERÇEK dikiş ipliklerinin rengini [İPLİK_HEX] yap. Dikiş ipliği = koltuk yüzeyindeki ince, düzenli, çizgisel tel dikişler.
+Dikiş çizgisinin KALINLIĞINI, KONUMUNU, DESENİNİ (düz dikiş, çift dikiş, kapitone hatları) DEĞİŞTİRME. Sadece rengini değiştir.
+İpliğin kendi parlaklık/gölge dokusunu koru (mat iplik dokusu kalsın, düz renk çizgi olmasın).
+Dikiş rengini kumaş yüzeyine TAŞIRMA. Sadece ipliğin bulunduğu ince hat boyanacak, çevresindeki kumaşa bulaşmayacak. Kenar taşması, karalama, "Paint ile boyanmış" görünümü KESİNLİKLE OLMAYACAK.
+Eğer bir dikişi net seçemiyorsan onu orijinal halinde bırak — YANLIŞ yere iplik rengi koymaktansa dokunmadan bırakmak daha iyidir.
+GÖRÜNTÜ KALİTESİ / TEKNİK KURALLAR
+Çıktı çözünürlüğü @img2 ile birebir aynı olacak (küçültme/büyütme yok, orijinal piksel boyutu korunacak).
+Netlik/keskinlik @img2 ile aynı kalacak. Bulanıklaştırma, yumuşatma, yeniden örnekleme (resample) YAPMA.
+Görüntüye ek gürültü, film grain, keskinleştirme (sharpening), HDR, ton eğrisi, doygunluk artışı gibi HİÇBİR global efekt uygulama.
+Sıkıştırma artefaktı (JPEG blokları), renk bandingi, halo, kenar hayaleti (ghosting) oluşturma.
+Kompozisyonu, kırpmayı (crop), en-boy oranını (aspect ratio) DEĞİŞTİRME. Fotoğrafı döndürme, yansıtma, kaydırma yapma.
+Sonuç foto-gerçekçi kalacak; çizim/illüstrasyon/render görünümüne KAYMAYACAK.
+ÇIKTIDAN ÖNCE KENDİ KENDİNİ DENETLE (checklist)
+
+Çıktıyı vermeden önce şunları doğrula:
+
+✅ TÜM koltuk başlıkları bej oldu mu? (şoför + yolcu + arka — hiçbiri atlanmadı mı?)
+✅ TÜM ön ve arka koltuk açık bölgeleri bej oldu mu?
+✅ Kapı panellerine dokunulmadı, orijinal mi kaldı?
+✅ Siyah deri bölümler siyah kaldı mı?
+✅ Camdaki gökyüzü/ağaçlar yanlışlıkla bej olmadı mı?
+✅ Dikişler [İPLİK_HEX] oldu ama kumaşa taşmadı mı?
+✅ Doku, dikiş tipi, kıvrımlar, gölgeler korundu mu?
+✅ Çözünürlük, netlik, en-boy oranı orijinaliyle aynı mı? Herhangi biri "hayır" ise, çıktıyı vermeden düzelt.
+
+ÖZET: @img2'yi al, sadece koltuk ve TÜM koltuk başlıklarının açık renkli bölgelerini @img1'deki bej tona çevir, dikişleri [İPLİK_HEX] yap, dokuyu/gölgeyi/dikiş tipini/çözünürlüğü koru, kapıya ve koltuk dışı hiçbir şeye dokunma. Foto-gerçekçi ve orijinal kalitede olsun.

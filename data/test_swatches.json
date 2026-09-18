@@ -1,0 +1,198 @@
+[
+  {
+    "file": "S-502.jpeg",
+    "kod": "SAMPLE S-502",
+    "tur_adi": "Siyah pebble deri (yakın çekim)",
+    "tipi": "PEBBLE DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "LS-101.jpeg",
+    "kod": "SAMPLE LS-101",
+    "tur_adi": "Siyah waffle / lakost (yakın çekim)",
+    "tipi": "LAKOST KUMAŞ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "yan-zoomed.png",
+    "kod": "SAMPLE YAN",
+    "tur_adi": "Krem deri (yakın çekim)",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "yan-sample.png",
+    "kod": "SAMPLE YAN 2",
+    "tur_adi": "Krem deri (dikişli swatch)",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0838.jpeg",
+    "kod": "SAMPLE 0838",
+    "tur_adi": "Krem pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0845.jpeg",
+    "kod": "SAMPLE 0845",
+    "tur_adi": "Kırık beyaz pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0836.jpeg",
+    "kod": "SAMPLE 0836",
+    "tur_adi": "Kum beji pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0835.jpeg",
+    "kod": "SAMPLE 0835",
+    "tur_adi": "Bej pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0841.jpeg",
+    "kod": "SAMPLE 0841",
+    "tur_adi": "Taş pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0833.jpeg",
+    "kod": "SAMPLE 0833",
+    "tur_adi": "Taupe pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0834.jpeg",
+    "kod": "SAMPLE 0834",
+    "tur_adi": "Taba pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0839.jpeg",
+    "kod": "SAMPLE 0839",
+    "tur_adi": "Camel pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0843.jpeg",
+    "kod": "SAMPLE 0843",
+    "tur_adi": "Gri pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "IMG_0837.jpeg",
+    "kod": "SAMPLE 0837",
+    "tur_adi": "Kiremit pebble deri",
+    "tipi": "DÜZ DERİ",
+    "grup": "YAN GÖVDE"
+  },
+  {
+    "file": "LS-101.jpeg",
+    "kod": "SAMPLE LS-101",
+    "tur_adi": "Siyah waffle / lakost (yakın çekim)",
+    "tipi": "LAKOST KUMAŞ",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "taytüyü_sample.png",
+    "kod": "SAMPLE TAYTÜYÜ",
+    "tur_adi": "Taytüyü süet (yakın çekim)",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "orta-sample.png",
+    "kod": "SAMPLE ORTA",
+    "tur_adi": "Krem süet/peluş (yakın çekim)",
+    "tipi": "MİLANO SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0846.jpeg",
+    "kod": "SAMPLE 0846",
+    "tur_adi": "Kırık beyaz taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0824.jpeg",
+    "kod": "SAMPLE 0824",
+    "tur_adi": "Kırık beyaz taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0818.jpeg",
+    "kod": "SAMPLE 0818",
+    "tur_adi": "Taupe taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0821.jpeg",
+    "kod": "SAMPLE 0821",
+    "tur_adi": "Camel taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0826.jpeg",
+    "kod": "SAMPLE 0826",
+    "tur_adi": "Camel taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0822.jpeg",
+    "kod": "SAMPLE 0822",
+    "tur_adi": "Oatmeal taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0827.jpeg",
+    "kod": "SAMPLE 0827",
+    "tur_adi": "Bej taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0832.jpeg",
+    "kod": "SAMPLE 0832",
+    "tur_adi": "Açık gri taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0831.jpeg",
+    "kod": "SAMPLE 0831",
+    "tur_adi": "Gri taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0830.jpeg",
+    "kod": "SAMPLE 0830",
+    "tur_adi": "Gri taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  },
+  {
+    "file": "IMG_0829.jpeg",
+    "kod": "SAMPLE 0829",
+    "tur_adi": "Siyah taytüyü",
+    "tipi": "TAYTÜYÜ SÜET",
+    "grup": "ORTA KISIM"
+  }
+]

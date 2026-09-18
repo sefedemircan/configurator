@@ -3,7 +3,7 @@ from collections.abc import AsyncIterator
 
 from app.schemas.tryon import SeatRegion, TryOnCompositeRequest, TryOnCompositeResponse, TryOnStreamEvent
 from app.services.generative_tryon import prepare_product_data_url, run_generative_tryon
-from app.services.product_composite import compose_product_image
+from app.services.product_composite import compose_product_image, load_layer_reference_pack
 from app.services.vision import detect_seat_regions, get_visible_seat_ids, order_visible_seat_ids
 from app.utils.images import decode_image_data, encode_image_data
 
@@ -29,6 +29,46 @@ def _resolve_visible_seats(
     return [seat_target]
 
 
+def _closest_aspect_ratio(width: int, height: int) -> str:
+    if height <= 0:
+        return "4:3"
+    ratio = width / height
+    candidates = {
+        "1:1": 1.0,
+        "4:3": 4 / 3,
+        "3:2": 1.5,
+        "16:9": 16 / 9,
+        "3:4": 3 / 4,
+        "2:3": 2 / 3,
+    }
+    return min(candidates, key=lambda key: abs(candidates[key] - ratio))
+
+
+async def _prepare_product_refs(
+    request: TryOnCompositeRequest,
+) -> tuple[str, dict[str, str], dict[str, str]]:
+    requested_layers = any(
+        getattr(request.product_layers, key, None)
+        for key in ("yan", "orta", "iplik")
+    )
+    layer_data_urls, swatch_data_urls = await load_layer_reference_pack(
+        request.product_layers,
+        layer_material_types=request.layer_material_types or None,
+        layer_is_direct_swatch=request.layer_is_direct_swatch or None,
+    )
+    if requested_layers and not layer_data_urls:
+        raise ValueError("YAN GÖVDE / ORTA KISIM / İPLİK görselleri indirilemedi.")
+    if layer_data_urls:
+        return next(iter(layer_data_urls.values())), layer_data_urls, swatch_data_urls
+
+    product_image = await compose_product_image(request.product_layers)
+    product_data_url = await prepare_product_data_url(
+        request.product_layers.base or "",
+        product_image,
+    )
+    return product_data_url, layer_data_urls, swatch_data_urls
+
+
 async def run_tryon_pipeline(request: TryOnCompositeRequest) -> TryOnCompositeResponse:
     warnings: list[str] = []
     stages = ["decode_scene", "vision_detection"]
@@ -46,11 +86,7 @@ async def run_tryon_pipeline(request: TryOnCompositeRequest) -> TryOnCompositeRe
     visible_seats = _resolve_visible_seats(regions, request.seat_target, warnings)
 
     stages.append("product_composite")
-    product_image = await compose_product_image(request.product_layers)
-    product_data_url = await prepare_product_data_url(
-        request.product_layers.base or "",
-        product_image,
-    )
+    product_data_url, layer_data_urls, swatch_data_urls = await _prepare_product_refs(request)
 
     for seat_id in visible_seats:
         stages.append(f"generative_tryon_{seat_id}")
@@ -61,6 +97,11 @@ async def run_tryon_pipeline(request: TryOnCompositeRequest) -> TryOnCompositeRe
         visible_seat_ids=visible_seats,
         product_reference=request.product_reference,
         vehicle_info=request.vehicle_info,
+        layer_data_urls=layer_data_urls or None,
+        layer_swatch_urls=swatch_data_urls or None,
+        layer_material_types=request.layer_material_types or None,
+        layer_is_direct_swatch=request.layer_is_direct_swatch or None,
+        aspect_ratio=_closest_aspect_ratio(*scene_image.size),
     )
     warnings.extend(gen_warnings)
     stages.append("done")
@@ -99,11 +140,7 @@ async def stream_tryon_pipeline(request: TryOnCompositeRequest) -> AsyncIterator
     )
 
     yield TryOnStreamEvent(type="status", text="Ürün görseli hazırlanıyor...")
-    product_image = await compose_product_image(request.product_layers)
-    product_data_url = await prepare_product_data_url(
-        request.product_layers.base or "",
-        product_image,
-    )
+    product_data_url, layer_data_urls, swatch_data_urls = await _prepare_product_refs(request)
 
     for index, seat_id in enumerate(visible_seats, start=1):
         yield TryOnStreamEvent(
@@ -118,6 +155,11 @@ async def stream_tryon_pipeline(request: TryOnCompositeRequest) -> AsyncIterator
             visible_seat_ids=visible_seats,
             product_reference=request.product_reference,
             vehicle_info=request.vehicle_info,
+            layer_data_urls=layer_data_urls or None,
+            layer_swatch_urls=swatch_data_urls or None,
+            layer_material_types=request.layer_material_types or None,
+            layer_is_direct_swatch=request.layer_is_direct_swatch or None,
+            aspect_ratio=_closest_aspect_ratio(*scene_image.size),
         )
         warnings.extend(gen_warnings)
     except Exception as exc:

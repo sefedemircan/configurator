@@ -1,5 +1,5 @@
 """
-Otom Virtual Try-On — sade, mobil uyumlu Streamlit arayüzü.
+Otom Virtual Try-On — sabit sahne + YAN GÖVDE / ORTA KISIM / İPLİK kombinasyonu.
 
 Çalıştırma:
     streamlit run streamlit_app.py
@@ -10,6 +10,7 @@ from __future__ import annotations
 import asyncio
 import base64
 import io
+import json
 import sys
 from pathlib import Path
 
@@ -22,19 +23,79 @@ from dotenv import load_dotenv
 from PIL import Image
 
 from app.config import get_settings
-from app.integrations.otomai_shopify import (
-    CatalogProduct,
-    search_catalog_products,
-    shopify_configured,
-)
 from app.schemas.tryon import ProductLayers, ProductReference, TryOnCompositeRequest
 from app.services.pipeline import run_tryon_pipeline
 from app.utils.images import encode_image_data
 
 load_dotenv()
 
+DATA_DIR = ROOT / "data"
+SCENE_PATH = ROOT / "_DSF9666.JPG"
+SCENE_MAX_SIDE = 1600
+SWATCH_CATALOG_PATH = DATA_DIR / "test_swatches.json"
+_IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp"}
+_SKIP_DATA_FILES = {"koltuk_bilgileri.json", "iplik_bilgileri.json", "test_swatches.json"}
+
+
+def _swatch_item(path: Path, *, kod: str, tur_adi: str, tipi: str, grup: str) -> dict:
+    return {
+        "URUN_KODU": kod,
+        "TUR_ADI": tur_adi,
+        "TİPİ": tipi,
+        "KOLTUK": "TEST SWATCH",
+        "GRUP": grup,
+        "GORSEL_URL": str(path.resolve()),
+        "is_fabric_swatch": True,
+    }
+
+
+def _fabric_sample_items() -> tuple[list[dict], list[dict]]:
+    """Local close-up fabric photos for texture-quality testing."""
+    yan: list[dict] = []
+    orta: list[dict] = []
+    used: set[str] = set()
+
+    if SWATCH_CATALOG_PATH.exists():
+        for spec in json.loads(SWATCH_CATALOG_PATH.read_text(encoding="utf-8")):
+            filename = str(spec.get("file") or "").strip()
+            path = DATA_DIR / filename
+            if not filename or not path.exists():
+                continue
+            used.add(path.name.lower())
+            item = _swatch_item(
+                path,
+                kod=str(spec.get("kod") or path.stem),
+                tur_adi=str(spec.get("tur_adi") or path.stem),
+                tipi=str(spec.get("tipi") or "SWATCH"),
+                grup=str(spec.get("grup") or "ORTA KISIM"),
+            )
+            if item["GRUP"] == "YAN GÖVDE":
+                yan.append(item)
+            else:
+                orta.append(item)
+
+    for path in sorted(DATA_DIR.iterdir(), key=lambda p: p.name.lower()):
+        if path.suffix.lower() not in _IMAGE_EXTS:
+            continue
+        if path.name in _SKIP_DATA_FILES or path.name.lower() in used:
+            continue
+        item = _swatch_item(
+            path,
+            kod=f"SAMPLE {path.stem}",
+            tur_adi=path.stem,
+            tipi="SWATCH",
+            grup="ORTA KISIM",
+        )
+        orta.append(item)
+        yan.append(
+            {**item, "GRUP": "YAN GÖVDE", "TİPİ": "DÜZ DERİ"}
+        )
+
+    return yan, orta
+
+
 st.set_page_config(
-    page_title="Otom Virtual Try-On",
+    page_title="Otom Koltuk Configurator",
     page_icon="🚗",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -43,17 +104,13 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* Mobile-first spacing */
     .block-container {
-        padding-top: 1rem;
+        padding-top: 1.25rem;
         padding-bottom: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        max-width: 480px;
+        max-width: 920px;
     }
     [data-testid="stSidebar"] { display: none; }
     [data-testid="collapsedControl"] { display: none; }
-    /* Larger tap targets */
     .stButton > button {
         min-height: 3rem;
         font-size: 1.05rem;
@@ -63,184 +120,243 @@ st.markdown(
         min-height: 2.75rem;
         border-radius: 12px;
     }
-    /* File uploader & select feel larger on phone */
-    [data-testid="stFileUploader"] section,
-    [data-testid="stSelectbox"] > div {
-        border-radius: 12px;
-    }
-    h1 { font-size: 1.6rem !important; margin-bottom: 0.25rem !important; }
-    .stCaption, [data-testid="stCaptionContainer"] {
-        font-size: 0.95rem !important;
-    }
+    [data-testid="stSelectbox"] > div { border-radius: 12px; }
+    h1 { font-size: 1.7rem !important; margin-bottom: 0.25rem !important; }
     img { border-radius: 12px; }
-    @media (min-width: 640px) {
-        .block-container { max-width: 560px; padding-top: 1.5rem; }
-        h1 { font-size: 1.9rem !important; }
-    }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
 
-def pil_to_data_url(image: Image.Image, fmt: str = "JPEG") -> str:
-    return encode_image_data(image.convert("RGBA"), fmt=fmt)
+@st.cache_data
+def _load_json(path_str: str) -> list[dict]:
+    return json.loads(Path(path_str).read_text(encoding="utf-8"))
 
 
-def run_pipeline(request: TryOnCompositeRequest):
+@st.cache_data
+def _load_scene_bytes(path_str: str) -> bytes:
+    return Path(path_str).read_bytes()
+
+
+def _seat_label(item: dict) -> str:
+    code = str(item.get("URUN_KODU") or "").strip()
+    name = str(item.get("TUR_ADI") or "").strip()
+    material = str(item.get("TİPİ") or "").strip()
+    design = str(item.get("KOLTUK") or "").strip()
+    head = " — ".join(part for part in (code, name) if part)
+    tail = " | ".join(part for part in (material, design) if part)
+    return f"{head} | {tail}" if tail else head
+
+
+def _thread_label(item: dict) -> str:
+    code = str(item.get("iplik_kodu") or "").strip()
+    color = str(item.get("iplik_rengi") or "").strip()
+    return " — ".join(part for part in (code, color) if part) or "İplik"
+
+
+def _filter_group(items: list[dict], group: str) -> list[dict]:
+    return [
+        item
+        for item in items
+        if item.get("GRUP") == group and str(item.get("GORSEL_URL") or "").strip()
+    ]
+
+
+def _downscale(image: Image.Image, max_side: int = SCENE_MAX_SIDE) -> Image.Image:
+    image = image.convert("RGBA")
+    width, height = image.size
+    longest = max(width, height)
+    if longest <= max_side:
+        return image
+    scale = max_side / longest
+    return image.resize(
+        (max(1, int(width * scale)), max(1, int(height * scale))),
+        Image.Resampling.LANCZOS,
+    )
+
+
+def _run_pipeline(request: TryOnCompositeRequest):
     return asyncio.run(run_tryon_pipeline(request))
 
 
-def _init_session_state() -> None:
-    defaults = {
-        "catalog_products": [],
-        "selected_product": None,
-        "selected_image_url": None,
-        "product_reference": None,
-        "catalog_loaded": False,
-    }
-    for key, value in defaults.items():
-        if key not in st.session_state:
-            st.session_state[key] = value
-
-
-def _ensure_catalog() -> list[CatalogProduct]:
-    if st.session_state.catalog_loaded and st.session_state.catalog_products:
-        return st.session_state.catalog_products
-
-    with st.spinner("Ürünler yükleniyor..."):
-        products = search_catalog_products(
-            vehicle_brand_model="",
-            product_category="universal_koltuk_kilifi",
-        )
-    st.session_state.catalog_products = products
-    st.session_state.catalog_loaded = True
-    return products
-
-
-def _render_product_picker() -> ProductLayers | None:
-    if not shopify_configured():
-        st.error(
-            "Shopify yapılandırması eksik. `.env` dosyasına "
-            "`OTOMSTORE_SHOPIFY_API_URL` ve `OTOMSTORE_SHOPIFY_ADMIN_ACCESS_TOKEN` ekleyin."
-        )
-        return None
-
-    try:
-        products = _ensure_catalog()
-    except Exception as exc:
-        st.error(f"Katalog hatası: {exc}")
-        return None
-
-    if not products:
-        st.warning("Ürün bulunamadı.")
-        return None
-
-    product_labels = [f"{p.title} — {p.price}" for p in products]
-    selected_index = st.selectbox(
-        "Ürün / renk seçin",
-        options=range(len(products)),
-        format_func=lambda i: product_labels[i],
+def _select_item(label: str, items: list[dict], key: str) -> dict:
+    index = st.selectbox(
+        label,
+        options=range(len(items)),
+        format_func=lambda i, _items=items: _seat_label(_items[i]),
+        key=key,
     )
-    selected: CatalogProduct = products[selected_index]
-    selection_key = selected.selection_key or selected.title
+    return items[index]
 
-    if st.session_state.selected_product != selection_key:
-        # Variant satırları katalog yüklenirken detaydan açıldığı için
-        # tekrar detail çekip ilk galeri görseline düşürmüyoruz.
-        st.session_state.selected_product = selection_key
-        st.session_state.selected_image_url = selected.image_url
 
-    chosen_image = st.session_state.selected_image_url or selected.image_url
-    caption = selected.title
-    if selected.color and selected.color not in caption:
-        caption = f"{selected.product_title or selected.title} — {selected.color}"
-    st.image(chosen_image, caption=caption, use_container_width=True)
-
-    layers = ProductLayers(base=chosen_image)
-    st.session_state.product_reference = ProductReference(
-        title=selected.product_title or selected.title,
-        handle=selected.handle,
-        image_url=chosen_image,
-        shopify_id=selected.variant_id or selected.product_id,
-        product_category="universal_koltuk_kilifi",
-    )
-    return layers
+def _preview_url(url: str, caption: str) -> None:
+    if not url:
+        st.caption("Görsel URL yok")
+        return
+    path = Path(url)
+    if path.exists() and path.is_file():
+        st.image(str(path), caption=caption, use_container_width=True)
+    else:
+        st.image(url, caption=caption, use_container_width=True)
 
 
 def main() -> None:
-    _init_session_state()
-
-    st.title("Otom Virtual Try-On")
-    st.caption("Fotoğraf yükleyin, ürün seçin, aracınızda görün.")
-
-    scene_file = st.file_uploader(
-        "Araç içi fotoğraf",
-        type=["jpg", "jpeg", "png", "webp"],
-        key="scene",
-        help="Galeriden seçin veya fotoğraf çekin.",
+    st.title("Otom Koltuk Configurator")
+    st.caption(
+        "Sabit araç görseline JSON’daki YAN GÖVDE, ORTA KISIM ve İPLİK "
+        "görsel_url referanslarını giydirin."
     )
 
-    scene_image: Image.Image | None = None
-    if scene_file:
-        scene_image = Image.open(scene_file).convert("RGBA")
-        st.image(scene_image, use_container_width=True)
+    get_settings.cache_clear()
+    if not get_settings().openrouter_api_key:
+        st.error(
+            "OPENROUTER_API_KEY tanımlı değil. Streamlit Cloud’da "
+            "App settings → Secrets içine ekleyin."
+        )
+        st.code('OPENROUTER_API_KEY = "sk-or-..."', language="toml")
+        return
 
-    st.subheader("Ürün")
-    product_layers = _render_product_picker()
+    if not SCENE_PATH.exists():
+        st.error(f"Sabit sahne görseli bulunamadı: {SCENE_PATH.name}")
+        return
 
-    has_product = bool(product_layers and product_layers.base)
-    can_run = scene_image is not None and has_product
+    scene_bytes = _load_scene_bytes(str(SCENE_PATH))
+    scene_image = _downscale(Image.open(io.BytesIO(scene_bytes)))
+    st.image(scene_image, caption="Sabit sahne — _DSF9666.JPG", use_container_width=True)
+
+    st.markdown(
+        """
+        Giydirme, orijinal fotoğrafın **retüşü**dür (yeniden çizim değil):
+        - **YAN** — sahnedeki deri tane korunur, swatch yalnızca renk
+        - **ORTA taytüyü** — renk sonra ayrı nap geçişi (damar/hav swatch’tan)
+        - **İPLİK** — sadece dikiş hattı rengi
+        - Cam ve kapı panellerine dokunulmaz
+        """
+    )
+
+    try:
+        koltuk_items = _load_json(str(DATA_DIR / "koltuk_bilgileri.json"))
+        iplik_items = [
+            item
+            for item in _load_json(str(DATA_DIR / "iplik_bilgileri.json"))
+            if str(item.get("gorsel_url") or "").strip()
+        ]
+    except Exception as exc:
+        st.error(f"JSON okunamadı: {exc}")
+        return
+
+    yan_items = _fabric_sample_items()[0] + _filter_group(koltuk_items, "YAN GÖVDE")
+    orta_items = _fabric_sample_items()[1] + _filter_group(koltuk_items, "ORTA KISIM")
+
+    if not yan_items or not orta_items or not iplik_items:
+        st.error("YAN GÖVDE, ORTA KISIM veya İPLİK seçenekleri JSON’da bulunamadı.")
+        return
+
+    st.info(
+        "Test swatch’ları listelerin başında: **YAN** pebble deri, **ORTA** taytüyü/süet. "
+        "Yeni `data/` fotoğrafları da otomatik düşer."
+    )
+
+    st.subheader("Kombinasyon")
+    col_yan, col_orta, col_iplik = st.columns(3)
+
+    with col_yan:
+        yan = _select_item("YAN GÖVDE", yan_items, "yan")
+        _preview_url(str(yan.get("GORSEL_URL") or ""), _seat_label(yan))
+
+    with col_orta:
+        orta = _select_item("ORTA KISIM", orta_items, "orta")
+        _preview_url(str(orta.get("GORSEL_URL") or ""), _seat_label(orta))
+
+    with col_iplik:
+        iplik_index = st.selectbox(
+            "İPLİK",
+            options=range(len(iplik_items)),
+            format_func=lambda i: _thread_label(iplik_items[i]),
+            key="iplik",
+        )
+        iplik = iplik_items[iplik_index]
+        _preview_url(str(iplik.get("gorsel_url") or ""), _thread_label(iplik))
+
+    yan_url = str(yan.get("GORSEL_URL") or "").strip()
+    orta_url = str(orta.get("GORSEL_URL") or "").strip()
+    iplik_url = str(iplik.get("gorsel_url") or "").strip()
+    can_run = bool(yan_url and orta_url and iplik_url)
 
     st.divider()
-
-    if st.button("Aracımda Gör", type="primary", disabled=not can_run, use_container_width=True):
-        if not scene_image or not product_layers:
-            st.error("Fotoğraf ve ürün gerekli.")
-            return
-
+    if st.button("Oluştur", type="primary", disabled=not can_run, use_container_width=True):
+        combo_title = (
+            f"YAN GÖVDE: {_seat_label(yan)} | "
+            f"ORTA KISIM: {_seat_label(orta)} | "
+            f"İPLİK: {_thread_label(iplik)}"
+        )
+        layers = ProductLayers(yan=yan_url, orta=orta_url, iplik=iplik_url)
         request = TryOnCompositeRequest(
-            scene_image=pil_to_data_url(scene_image),
-            product_layers=product_layers,
-            product_reference=st.session_state.get("product_reference"),
+            scene_image=encode_image_data(scene_image),
+            product_layers=layers,
+            product_reference=ProductReference(
+                title=combo_title,
+                handle="configurator-combo",
+                image_url=yan_url if yan_url.startswith("http") else "local-yan-sample",
+                product_category="universal_koltuk_kilifi",
+            ),
+            layer_material_types={
+                "yan": str(yan.get("TİPİ") or "").strip(),
+                "orta": str(orta.get("TİPİ") or "").strip(),
+            },
+            layer_is_direct_swatch={
+                "yan": bool(yan.get("is_fabric_swatch")),
+                "orta": bool(orta.get("is_fabric_swatch")),
+            },
             seat_target="auto",
         )
 
-        with st.spinner("Try-on çalışıyor..."):
+        with st.spinner("Kılıf giydiriliyor (orijinal panel modeli korunarak)..."):
             get_settings.cache_clear()
             try:
-                result = run_pipeline(request)
+                result = _run_pipeline(request)
             except Exception as exc:
                 st.error(f"Pipeline hatası: {exc}")
                 return
 
-        if result.product_reference:
-            st.caption(result.product_reference.title)
+        st.session_state["last_result"] = {
+            "title": combo_title,
+            "confidence": result.placement_confidence,
+            "warnings": result.warnings,
+            "image": result.result_image,
+        }
 
-        st.success(f"Tamamlandı — güven: {result.placement_confidence:.0%}")
+    last = st.session_state.get("last_result")
+    if not last:
+        return
 
-        for warning in result.warnings:
-            st.warning(warning)
+    st.caption(last["title"])
+    st.success(f"Tamamlandı — güven: {last['confidence']:.0%}")
+    for warning in last["warnings"]:
+        st.warning(warning)
 
-        result_img = Image.open(
-            io.BytesIO(base64.b64decode(result.result_image.split(",", 1)[-1]))
-        )
+    result_img = Image.open(
+        io.BytesIO(base64.b64decode(last["image"].split(",", 1)[-1]))
+    )
 
-        # Single-column stack — better on phones than side-by-side
+    before, after = st.columns(2)
+    with before:
         st.markdown("**Orijinal**")
         st.image(scene_image, use_container_width=True)
+    with after:
         st.markdown("**Sonuç**")
         st.image(result_img, use_container_width=True)
 
-        buf = io.BytesIO()
-        result_img.convert("RGB").save(buf, format="JPEG", quality=90)
-        st.download_button(
-            "Sonucu indir",
-            data=buf.getvalue(),
-            file_name="otom-tryon-result.jpg",
-            mime="image/jpeg",
-            use_container_width=True,
-        )
+    buf = io.BytesIO()
+    result_img.convert("RGB").save(buf, format="JPEG", quality=90)
+    st.download_button(
+        "Sonucu indir",
+        data=buf.getvalue(),
+        file_name="otom-configurator-result.jpg",
+        mime="image/jpeg",
+        use_container_width=True,
+    )
 
 
 if __name__ == "__main__":

@@ -18,6 +18,21 @@ copy .env.example .env
 streamlit run streamlit_app.py
 ```
 
+### Streamlit Community Cloud
+
+Repo GitHub’da (`sefedemircan/otom-ai-configurator`). Deploy:
+
+1. [share.streamlit.io/deploy](https://share.streamlit.io/deploy?repository=sefedemircan/otom-ai-configurator&branch=main&mainModule=streamlit_app.py) — repository `sefedemircan/otom-ai-configurator`, branch `main`, main file `streamlit_app.py`
+2. Advanced settings → Secrets:
+
+```toml
+OPENROUTER_API_KEY = "sk-or-..."
+OPENROUTER_VISION_MODEL = "google/gemini-3-pro-image-preview"
+OPENROUTER_IMAGE_MODEL = "google/gemini-3-pro-image-preview"
+```
+
+Anahtar asla git’e eklenmez. Cloud, `st.secrets` ve ortam değişkeni olarak okur.
+
 ### FastAPI servisi
 
 ```bash
@@ -37,8 +52,8 @@ uvicorn app.main:app --reload --port 8000
 | Variable | Description |
 |----------|-------------|
 | `OPENROUTER_API_KEY` | Vision + image generation |
-| `OPENROUTER_VISION_MODEL` | Koltuk tespiti (varsayılan: `google/gemini-3.1-flash-image`) |
-| `OPENROUTER_IMAGE_MODEL` | Try-on görüntü modeli (varsayılan: `google/gemini-3.1-flash-image`) |
+| `OPENROUTER_VISION_MODEL` | Koltuk tespiti (varsayılan: `google/gemini-3-pro-image-preview`) |
+| `OPENROUTER_IMAGE_MODEL` | Try-on görüntü modeli (varsayılan: `google/gemini-3-pro-image-preview`) |
 | `TRYON_API_KEY` | Opsiyonel API key koruması |
 
 ## API

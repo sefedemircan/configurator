@@ -1,0 +1,1986 @@
+[
+    {
+      "ID": 16,
+      "URUN_KODU": "L 01",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/L 01.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-1ufsr-5cum2-azveg-4l4oo-06r48.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "LAKOST KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-1ufsr-5cum2-azveg-4l4oo-06r48.png"
+      ]
+    },
+    {
+      "ID": 17,
+      "URUN_KODU": "L 04",
+      "TUR_ADI": "AÇIK GRİ",
+      "DOSYA_ADI": "images/L 04.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-a3lfa-elwbm-j502w-dv9d7-9gyus.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "LAKOST KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-a3lfa-elwbm-j502w-dv9d7-9gyus.png"
+      ]
+    },
+    {
+      "ID": 18,
+      "URUN_KODU": "L 02",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/L 02.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-5etfl-9z6aq-fh72a-96gci-5s2t2.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "LAKOST KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-5etfl-9z6aq-fh72a-96gci-5s2t2.png"
+      ]
+    },
+    {
+      "ID": 19,
+      "URUN_KODU": "L 03",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/L 03.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-qzuu3-1e6of-7x8ft-1ohr0-q936k.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "LAKOST KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-qzuu3-1e6of-7x8ft-1ohr0-q936k.png"
+      ]
+    },
+    {
+      "ID": 20,
+      "URUN_KODU": "LS 101",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/LS 101.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-j46pf-nmkkr-t6lb4-myymc-igg2z.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-j46pf-nmkkr-t6lb4-myymc-igg2z.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-4qqt2-8gboe-d0cft-7plr0-3a76k.png"
+      ]
+    },
+    {
+      "ID": 20,
+      "URUN_KODU": "LS 101",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/LS 101.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-4qqt2-8gboe-d0cft-7plr0-3a76k.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-j46pf-nmkkr-t6lb4-myymc-igg2z.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-4qqt2-8gboe-d0cft-7plr0-3a76k.png"
+      ]
+    },
+    {
+      "ID": 21,
+      "URUN_KODU": "LS 102",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/LS 102.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-cao3h-ht2wu-mc3r6-g1d1e-cnxhx.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cao3h-ht2wu-mc3r6-g1d1e-cnxhx.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-9o5ny-d7jj6-iskak-cgvlt-81g1c.png"
+      ]
+    },
+    {
+      "ID": 21,
+      "URUN_KODU": "LS 102",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/LS 102.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-9o5ny-d7jj6-iskak-cgvlt-81g1c.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cao3h-ht2wu-mc3r6-g1d1e-cnxhx.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-9o5ny-d7jj6-iskak-cgvlt-81g1c.png"
+      ]
+    },
+    {
+    "ID": 22,
+    "URUN_KODU": "LS 103",
+    "TUR_ADI": "KOYU GRİ",
+    "DOSYA_ADI": "images/LS 103.png",
+    "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-2zs84-6e43g-bx5vv-5nf52-191lm.png",
+    "GRUP": "YAN GÖVDE",
+    "TİPİ": "DÜZ DERİ",
+    "KOLTUK": "NATURAL DESIGN",
+    "KAPAK_URL": [
+      "https://otomid.com/upload/koltuk-kapak-resim-2zs84-6e43g-bx5vv-5nf52-191lm.png"
+    ]
+  },
+    {
+      "ID": 22,
+      "URUN_KODU": "LS 103",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/LS 103.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-rjn0d-y20yp-0m2n2-vbbqa-rzqdv.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2zs84-6e43g-bx5vv-5nf52-191lm.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-rjn0d-y20yp-0m2n2-vbbqa-rzqdv.png"
+      ]
+    },
+    {
+      "ID": 23,
+      "URUN_KODU": "LS 104",
+      "TUR_ADI": "TAŞ",
+      "DOSYA_ADI": "images/LS 104.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-1ca0o-5vny0-aepme-43xqm-0pkd6.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-6koso-a21m0-fm2ee-9bcom-5qx46.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-1ca0o-5vny0-aepme-43xqm-0pkd6.png"
+      ]
+    },
+    {
+      "ID": 23,
+      "URUN_KODU": "LS 104",
+      "TUR_ADI": "TAŞ",
+      "DOSYA_ADI": "images/LS 104.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-6koso-a21m0-fm2ee-9bcom-5qx46.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-6koso-a21m0-fm2ee-9bcom-5qx46.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-1ca0o-5vny0-aepme-43xqm-0pkd6.png"
+      ]
+    },
+    {
+      "ID": 24,
+      "URUN_KODU": "LS 105",
+      "TUR_ADI": "GRİ",
+      "DOSYA_ADI": "images/LS 105.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-0gyia-4x9em-9ia50-37jg8-wu5zt.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-w8jk1-3rqfd-8ax6r-2w8hx-xkuqi.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-0gyia-4x9em-9ia50-37jg8-wu5zt.png"
+      ]
+    },
+    {
+      "ID": 24,
+      "URUN_KODU": "LS 105",
+      "TUR_ADI": "GRİ",
+      "DOSYA_ADI": "images/LS 105.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-w8jk1-3rqfd-8ax6r-2w8hx-xkuqi.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-w8jk1-3rqfd-8ax6r-2w8hx-xkuqi.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-0gyia-4x9em-9ia50-37jg8-wu5zt.png"
+      ]
+    },
+    {
+      "ID": 25,
+      "URUN_KODU": "LS 106",
+      "TUR_ADI": "BORDO",
+      "DOSYA_ADI": "images/LS 106.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-89ug5-ct7bh-ic82v-c1id2-8m3um.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-nuwkx-sbdg9-zye7n-rkniy-m69xf.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-89ug5-ct7bh-ic82v-c1id2-8m3um.png"
+      ]
+    },
+    {
+      "ID": 25,
+      "URUN_KODU": "LS 106",
+      "TUR_ADI": "BORDO",
+      "DOSYA_ADI": "images/LS 106.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-nuwkx-sbdg9-zye7n-rkniy-m69xf.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-nuwkx-sbdg9-zye7n-rkniy-m69xf.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-89ug5-ct7bh-ic82v-c1id2-8m3um.png"
+      ]
+    },
+    {
+      "ID": 26,
+      "URUN_KODU": "LS 107",
+      "TUR_ADI": "AÇIK GRİ",
+      "DOSYA_ADI": "images/LS 107.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-019x4-5jnuf-a3olu-4txy1-0dkbl.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-019x4-5jnuf-a3olu-4txy1-0dkbl.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-3ouzh-767tt-cr8j6-6fhve-203ax.png"
+      ]
+    },
+    {
+      "ID": 26,
+      "URUN_KODU": "LS 107",
+      "TUR_ADI": "AÇIK GRİ",
+      "DOSYA_ADI": "images/LS 107.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-3ouzh-767tt-cr8j6-6fhve-203ax.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-019x4-5jnuf-a3olu-4txy1-0dkbl.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-3ouzh-767tt-cr8j6-6fhve-203ax.png"
+      ]
+    },
+    {
+      "ID": 27,
+      "URUN_KODU": "LS 108",
+      "TUR_ADI": "LACİVERT",
+      "DOSYA_ADI": "images/LS 108.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-pwkle-uhxhr-x1w84-tr9jc-obywz.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-pwkle-uhxhr-x1w84-tr9jc-obywz.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-6zkae-aex5r-gxwq3-an87b-69vny.png"
+      ]
+    },
+    {
+      "ID": 27,
+      "URUN_KODU": "LS 108",
+      "TUR_ADI": "LACİVERT",
+      "DOSYA_ADI": "images/LS 108.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-6zkae-aex5r-gxwq3-an87b-69vny.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-pwkle-uhxhr-x1w84-tr9jc-obywz.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-6zkae-aex5r-gxwq3-an87b-69vny.png"
+      ]
+    },
+    {
+      "ID": 28,
+      "URUN_KODU": "LS 109",
+      "TUR_ADI": "PİŞMİŞ TOPRAK",
+      "DOSYA_ADI": "images/LS 109.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-2dz59-6y90l-bfbtw-54k37-1r6is.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2dz59-6y90l-bfbtw-54k37-1r6is.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-t95nq-zsjj9-1bkam-y0vlv-slf1e.png"
+      ]
+    },
+    {
+      "ID": 28,
+      "URUN_KODU": "LS 109",
+      "TUR_ADI": "PİŞMİŞ TOPRAK",
+      "DOSYA_ADI": "images/LS 109.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-t95nq-zsjj9-1bkam-y0vlv-slf1e.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2dz59-6y90l-bfbtw-54k37-1r6is.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-t95nq-zsjj9-1bkam-y0vlv-slf1e.png"
+      ]
+    },
+    {
+      "ID": 29,
+      "URUN_KODU": "LS 110",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/LS 110.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-wqbkw-3fogb-8wp7o-2owiz-xalxg.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-wqbkw-3fogb-8wp7o-2owiz-xalxg.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-l05u3-pjipf-y3jgt-otus0-ldf7k.png"
+      ]
+    },
+    {
+      "ID": 29,
+      "URUN_KODU": "LS 110",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/LS 110.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-l05u3-pjipf-y3jgt-otus0-ldf7k.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-wqbkw-3fogb-8wp7o-2owiz-xalxg.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-l05u3-pjipf-y3jgt-otus0-ldf7k.png"
+      ]
+    },
+    {
+      "ID": 30,
+      "URUN_KODU": "LS 111",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/LS 111.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-twrnp-zh4i0-115ae-yrfkm-sb106.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-twrnp-zh4i0-115ae-yrfkm-sb106.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-fx68a-jgj4m-o0kyw-ipv67-ebgms.png"
+      ]
+    },
+    {
+      "ID": 30,
+      "URUN_KODU": "LS 111",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/LS 111.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-fx68a-jgj4m-o0kyw-ipv67-ebgms.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-twrnp-zh4i0-115ae-yrfkm-sb106.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-fx68a-jgj4m-o0kyw-ipv67-ebgms.png"
+      ]
+    },
+    {
+      "ID": 45,
+      "URUN_KODU": "J 501",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 501.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-5y0y1-9edrd-exehr-8notx-48a8i.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-5y0y1-9edrd-exehr-8notx-48a8i.png"
+      ]
+    },
+    {
+      "ID": 46,
+      "URUN_KODU": "J 502",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/J 502.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ocdf9-tvsak-xet2x-t32c6-opotr.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ocdf9-tvsak-xet2x-t32c6-opotr.png"
+      ]
+    },
+    {
+      "ID": 47,
+      "URUN_KODU": "J 503",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/J 503.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-vn56y-x5i27-4pjuk-qeu4t-v0fkc.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-6afpb-attkm-fcub0-913m8-5np2t.png"
+      ]
+    },
+    {
+      "ID": 48,
+      "URUN_KODU": "J 504",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/J 504.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-j8djp-nrse1-uat5e-nw1gm-jlnz6.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-j8djp-nrse1-uat5e-nw1gm-jlnz6.png"
+      ]
+    },
+    {
+      "ID": 49,
+      "URUN_KODU": "J 505",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 505.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-4xrvo-8g3p0-e04hd-8retl-4b085.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-4xrvo-8g3p0-e04hd-8retl-4b085.png"
+      ]
+    },
+    {
+      "ID": 50,
+      "URUN_KODU": "J 506",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/J 506.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ylas5-w3nng-4noev-xcxp2-vxk5m.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ylas5-w3nng-4noev-xcxp2-vxk5m.png"
+      ]
+    },
+    {
+      "ID": 51,
+      "URUN_KODU": "J 507",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 507.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-bqauy-ffno7-kwofl-eoxrt-aak6c.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-bqauy-ffno7-kwofl-eoxrt-aak6c.png"
+      ]
+    },
+    {
+      "ID": 52,
+      "URUN_KODU": "J 508",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/J 508.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-pbcxf-uurus-wdsk4-u21yc-pnmbz.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-pbcxf-uurus-wdsk4-u21yc-pnmbz.png"
+      ]
+    },
+    {
+      "ID": 53,
+      "URUN_KODU": "J 509",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 509.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-p3m5o-um010-w61td-uya3l-pgzj5.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-p3m5o-um010-w61td-uya3l-pgzj5.png"
+      ]
+    },
+    {
+      "ID": 54,
+      "URUN_KODU": "J 510",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/J 510.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ezuyk-ie7sz-nx8ia-hnhui-d8392.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ezuyk-ie7sz-nx8ia-hnhui-d8392.png"
+      ]
+    },
+    {
+      "ID": 55,
+      "URUN_KODU": "J 511",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 511.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-zfqff-0qaar-6hb24-w6lcc-zt7tz.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-zfqff-0qaar-6hb24-w6lcc-zt7tz.png"
+      ]
+    },
+    {
+      "ID": 56,
+      "URUN_KODU": "J 512",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/J 512.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-l5jcg-pnz7t-v7xx5-oz79d-khupq.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-l5jcg-pnz7t-v7xx5-oz79d-khupq.png"
+      ]
+    },
+    {
+      "ID": 57,
+      "URUN_KODU": "J 513",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/J 513.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-qqoh8-2f2ck-7w34q-1ode5-q9xvp.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-qqoh8-2f2ck-7w34q-1ode5-q9xvp.png"
+      ]
+    },
+    {
+      "ID": 58,
+      "URUN_KODU": "J 514",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 514.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-f2i7f-jky3r-o4zv4-iu65c-eftlz.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-f2i7f-jky3r-o4zv4-iu65c-eftlz.png"
+      ]
+    },
+    {
+      "ID": 59,
+      "URUN_KODU": "J 515",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/J 515.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-g5nnn-kn0ix-p719c-jzbkk-fiq04.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-g5nnn-kn0ix-p719c-jzbkk-fiq04.png"
+      ]
+    },
+    {
+      "ID": 60,
+      "URUN_KODU": "J 516",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/J 516.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-m55n4-rniig-y7jav-pzuk2-lif0m.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-m55n4-rniig-y7jav-pzuk2-lif0m.png"
+      ]
+    },
+    {
+      "ID": 61,
+      "URUN_KODU": "J 517",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 517.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-bbsam-fv55q-le6qb-f3g7j-bo1n3.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-bbsam-fv55q-le6qb-f3g7j-bo1n3.png"
+      ]
+    },
+    {
+      "ID": 62,
+      "URUN_KODU": "J 518",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 518.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-cpe0f-g7tzs-lsun5-fg3xd-b2peq.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cpe0f-g7tzs-lsun5-fg3xd-b2peq.png"
+      ]
+    },
+    {
+      "ID": 63,
+      "URUN_KODU": "J 519",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 519.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-dubj6-hbpei-nyr5y-hk0g3-d6lzn.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-dubj6-hbpei-nyr5y-hk0g3-d6lzn.png"
+      ]
+    },
+    {
+      "ID": 64,
+      "URUN_KODU": "J 520",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 520.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-gr4jq-k8ie8-rtj6m-khthv-g3eze.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-gr4jq-k8ie8-rtj6m-khthv-g3eze.png"
+      ]
+    },
+    {
+      "ID": 65,
+      "URUN_KODU": "J 521",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/J 521.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-xfhwx-2qyy9-7hzmn-175qy-qtsdf.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-xfhwx-2qyy9-7hzmn-175qy-qtsdf.png"
+      ]
+    },
+    {
+      "ID": 66,
+      "URUN_KODU": "J 522",
+      "TUR_ADI": "GRİ",
+      "DOSYA_ADI": "images/J 522.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-a1ty0-ej5rc-k37hr-etgtx-ad28i.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-a1ty0-ej5rc-k37hr-etgtx-ad28i.png"
+      ]
+    },
+    {
+      "ID": 67,
+      "URUN_KODU": "J 523",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/J 523.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ng4xh-swhvt-zjil6-r8tze-muecx.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ng4xh-swhvt-zjil6-r8tze-muecx.png"
+      ]
+    },
+    {
+      "ID": 68,
+      "URUN_KODU": "J 524",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/J 524.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-4szh7-8a9dj-dvb4q-7jkf5-346yp.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "JAKAR KUMAŞ",
+      "KOLTUK": "ORIGINAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-4szh7-8a9dj-dvb4q-7jkf5-346yp.png"
+      ]
+    },
+    {
+      "ID": 77,
+      "URUN_KODU": "LS 101",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/LS 101.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-4qqt2-8gboe-d0cft-7plr0-3a76k.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-j46pf-nmkkr-t6lb4-myymc-igg2z.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-4qqt2-8gboe-d0cft-7plr0-3a76k.png"
+      ]
+    },
+    {
+      "ID": 77,
+      "URUN_KODU": "LS 101",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/LS 101.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-4qqt2-8gboe-d0cft-7plr0-3a76k.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-j46pf-nmkkr-t6lb4-myymc-igg2z.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-4qqt2-8gboe-d0cft-7plr0-3a76k.png"
+      ]
+    },
+    {
+      "ID": 78,
+      "URUN_KODU": "LS 102",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/LS 102.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-9o5ny-d7jj6-iskak-cgvlt-81g1c.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cao3h-ht2wu-mc3r6-g1d1e-cnxhx.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-9o5ny-d7jj6-iskak-cgvlt-81g1c.png"
+      ]
+    },
+    {
+      "ID": 78,
+      "URUN_KODU": "LS 102",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/LS 102.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-9o5ny-d7jj6-iskak-cgvlt-81g1c.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cao3h-ht2wu-mc3r6-g1d1e-cnxhx.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-9o5ny-d7jj6-iskak-cgvlt-81g1c.png"
+      ]
+    },
+    {
+      "ID": 79,
+      "URUN_KODU": "LS 103",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/LS 103.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-2zs84-6e43g-bx5vv-5nf52-191lm.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2zs84-6e43g-bx5vv-5nf52-191lm.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-rjn0d-y20yp-0m2n2-vbbqa-rzqdv.png"
+      ]
+    },
+    {
+      "ID": 79,
+      "URUN_KODU": "LS 103",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/LS 103.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-rjn0d-y20yp-0m2n2-vbbqa-rzqdv.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2zs84-6e43g-bx5vv-5nf52-191lm.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-rjn0d-y20yp-0m2n2-vbbqa-rzqdv.png"
+      ]
+    },
+    {
+      "ID": 80,
+      "URUN_KODU": "LS 104",
+      "TUR_ADI": "TAŞ",
+      "DOSYA_ADI": "images/LS 104.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-1ca0o-5vny0-aepme-43xqm-0pkd6.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-6koso-a21m0-fm2ee-9bcom-5qx46.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-1ca0o-5vny0-aepme-43xqm-0pkd6.png"
+      ]
+    },
+    {
+      "ID": 80,
+      "URUN_KODU": "LS 104",
+      "TUR_ADI": "TAŞ",
+      "DOSYA_ADI": "images/LS 104.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-1ca0o-5vny0-aepme-43xqm-0pkd6.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-6koso-a21m0-fm2ee-9bcom-5qx46.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-1ca0o-5vny0-aepme-43xqm-0pkd6.png"
+      ]
+    },
+    {
+      "ID": 81,
+      "URUN_KODU": "LS 105",
+      "TUR_ADI": "GRİ",
+      "DOSYA_ADI": "images/LS 105.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-0gyia-4x9em-9ia50-37jg8-wu5zt.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-w8jk1-3rqfd-8ax6r-2w8hx-xkuqi.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-0gyia-4x9em-9ia50-37jg8-wu5zt.png"
+      ]
+    },
+    {
+      "ID": 81,
+      "URUN_KODU": "LS 105",
+      "TUR_ADI": "GRİ",
+      "DOSYA_ADI": "images/LS 105.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-0gyia-4x9em-9ia50-37jg8-wu5zt.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-w8jk1-3rqfd-8ax6r-2w8hx-xkuqi.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-0gyia-4x9em-9ia50-37jg8-wu5zt.png"
+      ]
+    },
+    {
+      "ID": 82,
+      "URUN_KODU": "LS 106",
+      "TUR_ADI": "BORDO",
+      "DOSYA_ADI": "images/LS 106.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-89ug5-ct7bh-ic82v-c1id2-8m3um.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-nuwkx-sbdg9-zye7n-rkniy-m69xf.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-89ug5-ct7bh-ic82v-c1id2-8m3um.png"
+      ]
+    },
+    {
+      "ID": 82,
+      "URUN_KODU": "LS 106",
+      "TUR_ADI": "BORDO",
+      "DOSYA_ADI": "images/LS 106.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-89ug5-ct7bh-ic82v-c1id2-8m3um.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-nuwkx-sbdg9-zye7n-rkniy-m69xf.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-89ug5-ct7bh-ic82v-c1id2-8m3um.png"
+      ]
+    },
+    {
+      "ID": 83,
+      "URUN_KODU": "LS 108",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/LS 108.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-6zkae-aex5r-gxwq3-an87b-69vny.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-pwkle-uhxhr-x1w84-tr9jc-obywz.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-6zkae-aex5r-gxwq3-an87b-69vny.png"
+      ]
+    },
+    {
+      "ID": 83,
+      "URUN_KODU": "LS 108",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/LS 108.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-6zkae-aex5r-gxwq3-an87b-69vny.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-pwkle-uhxhr-x1w84-tr9jc-obywz.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-6zkae-aex5r-gxwq3-an87b-69vny.png"
+      ]
+    },
+    {
+      "ID": 84,
+      "URUN_KODU": "LS 109",
+      "TUR_ADI": "PİŞMİŞ TOPRAK",
+      "DOSYA_ADI": "images/LS 109.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-t95nq-zsjj9-1bkam-y0vlv-slf1e.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2dz59-6y90l-bfbtw-54k37-1r6is.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-t95nq-zsjj9-1bkam-y0vlv-slf1e.png"
+      ]
+    },
+    {
+      "ID": 84,
+      "URUN_KODU": "LS 109",
+      "TUR_ADI": "PİŞMİŞ TOPRAK",
+      "DOSYA_ADI": "images/LS 109.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-t95nq-zsjj9-1bkam-y0vlv-slf1e.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2dz59-6y90l-bfbtw-54k37-1r6is.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-t95nq-zsjj9-1bkam-y0vlv-slf1e.png"
+      ]
+    },
+    {
+      "ID": 85,
+      "URUN_KODU": "LS 110",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/LS 110.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-l05u3-pjipf-y3jgt-otus0-ldf7k.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-wqbkw-3fogb-8wp7o-2owiz-xalxg.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-l05u3-pjipf-y3jgt-otus0-ldf7k.png"
+      ]
+    },
+    {
+      "ID": 85,
+      "URUN_KODU": "LS 110",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/LS 110.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-l05u3-pjipf-y3jgt-otus0-ldf7k.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-wqbkw-3fogb-8wp7o-2owiz-xalxg.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-l05u3-pjipf-y3jgt-otus0-ldf7k.png"
+      ]
+    },
+    {
+      "ID": 86,
+      "URUN_KODU": "LS 107",
+      "TUR_ADI": "AÇIK GRİ",
+      "DOSYA_ADI": "images/LS 107.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-3ouzh-767tt-cr8j6-6fhve-203ax.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-019x4-5jnuf-a3olu-4txy1-0dkbl.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-3ouzh-767tt-cr8j6-6fhve-203ax.png"
+      ]
+    },
+    {
+      "ID": 86,
+      "URUN_KODU": "LS 107",
+      "TUR_ADI": "AÇIK GRİ",
+      "DOSYA_ADI": "images/LS 107.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-3ouzh-767tt-cr8j6-6fhve-203ax.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-019x4-5jnuf-a3olu-4txy1-0dkbl.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-3ouzh-767tt-cr8j6-6fhve-203ax.png"
+      ]
+    },
+    {
+      "ID": 88,
+      "URUN_KODU": "LS 111",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/LS 111.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-fx68a-jgj4m-o0kyw-ipv67-ebgms.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-twrnp-zh4i0-115ae-yrfkm-sb106.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-fx68a-jgj4m-o0kyw-ipv67-ebgms.png"
+      ]
+    },
+    {
+      "ID": 88,
+      "URUN_KODU": "LS 111",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/LS 111.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-fx68a-jgj4m-o0kyw-ipv67-ebgms.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-twrnp-zh4i0-115ae-yrfkm-sb106.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-fx68a-jgj4m-o0kyw-ipv67-ebgms.png"
+      ]
+    },
+    {
+      "ID": 89,
+      "URUN_KODU": "LX 201",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/LX 201.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-a52wo-engy0-k8hme-dqrqm-aicd6.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "X-TYPE DERİ",
+      "KOLTUK": "NEW YORK DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-a52wo-engy0-k8hme-dqrqm-aicd6.png"
+      ]
+    },
+    {
+      "ID": 90,
+      "URUN_KODU": "LX 202",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/LX 202.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-fnx6g-j5c2t-opdu6-ien4d-e08kq.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "X-TYPE DERİ",
+      "KOLTUK": "NEW YORK DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-fnx6g-j5c2t-opdu6-ien4d-e08kq.png"
+      ]
+    },
+    {
+      "ID": 91,
+      "URUN_KODU": "LX 203",
+      "TUR_ADI": "FÜME",
+      "DOSYA_ADI": "images/LX 203.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-3ipx5-703ug-ck4kv-69ey2-2y0bm.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "X-TYPE DERİ",
+      "KOLTUK": "NEW YORK DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-3ipx5-703ug-ck4kv-69ey2-2y0bm.png"
+      ]
+    },
+    {
+      "ID": 92,
+      "URUN_KODU": "LX 204",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/LX 204.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-pjx7b-v1c2n-wldv0-uan48-pz9kt.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "X-TYPE DERİ",
+      "KOLTUK": "NEW YORK DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-pjx7b-v1c2n-wldv0-uan48-pz9kt.png"
+      ]
+    },
+    {
+      "ID": 94,
+      "URUN_KODU": "LX 206",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/LX 206.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-lhcfm-pwpax-yjs2b-p80cj-lvmt3.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "X-TYPE DERİ",
+      "KOLTUK": "NEW YORK DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-lhcfm-pwpax-yjs2b-p80cj-lvmt3.png"
+      ]
+    },
+    {
+      "ID": 97,
+      "URUN_KODU": "TM 301",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/TM 301.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-1qvcf-5f88s-aw9w4-4ojac-0a5rz.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "MİLANO SÜET",
+      "KOLTUK": "MILANO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-1qvcf-5f88s-aw9w4-4ojac-0a5rz.png"
+      ]
+    },
+    {
+      "ID": 98,
+      "URUN_KODU": "TM 302",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/TM 302.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-5gjfp-9xqb1-eix2e-878dm-4uuu6.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "MİLANO SÜET",
+      "KOLTUK": "MILANO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-5gjfp-9xqb1-eix2e-878dm-4uuu6.png"
+      ]
+    },
+    {
+      "ID": 99,
+      "URUN_KODU": "TM 303",
+      "TUR_ADI": "FÜME",
+      "DOSYA_ADI": "images/TM 303.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-knklk-o5xhz-vpw89-oe8jh-k0vw1.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "MİLANO SÜET",
+      "KOLTUK": "MILANO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-knklk-o5xhz-vpw89-oe8jh-k0vw1.png"
+      ]
+    },
+    {
+      "ID": 100,
+      "URUN_KODU": "TM 304",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/TM 304.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-a9fzw-esutb-kbvjo-e03vz-ampag.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "MİLANO SÜET",
+      "KOLTUK": "MILANO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-a9fzw-esutb-kbvjo-e03vz-ampag.png"
+      ]
+    },
+    {
+      "ID": 101,
+      "URUN_KODU": "TM 305",
+      "TUR_ADI": "BORDO",
+      "DOSYA_ADI": "images/TM 305.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-a5as3-enome-j7pdt-dzwo0-9ik4k.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "MİLANO SÜET",
+      "KOLTUK": "MILANO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-a5as3-enome-j7pdt-dzwo0-9ik4k.png"
+      ]
+    },
+    {
+      "ID": 102,
+      "URUN_KODU": "TM 306",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/TM 306.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-oraij-t8ody-qtp59-shxgh-n3ky1.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "MİLANO SÜET",
+      "KOLTUK": "MILANO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-oraij-t8ody-qtp59-shxgh-n3ky1.png"
+      ]
+    },
+    {
+      "ID": 107,
+      "URUN_KODU": "TT 301",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/TT 301.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-gz1iq-keee9-rwf5m-kopgv-g9bze.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "TAYTÜYÜ SÜET",
+      "KOLTUK": "LONDON DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-gz1iq-keee9-rwf5m-kopgv-g9bze.png"
+      ]
+    },
+    {
+      "ID": 108,
+      "URUN_KODU": "TT 302",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/TT 302.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-qv3i7-1dhej-7qi5z-1mtg4-q7dzo.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "TAYTÜYÜ SÜET",
+      "KOLTUK": "LONDON DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-qv3i7-1dhej-7qi5z-1mtg4-q7dzo.png"
+      ]
+    },
+    {
+      "ID": 109,
+      "URUN_KODU": "TT 303",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/TT 303.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-nip2n-s02qw-qk3od-r9dwl-nywf5.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "TAYTÜYÜ SÜET",
+      "KOLTUK": "LONDON DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-nip2n-s02qw-qk3od-r9dwl-nywf5.png"
+      ]
+    },
+    {
+      "ID": 110,
+      "URUN_KODU": "TT 304",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/TT 304.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-dnb5k-i5p0y-nprs9-hew2h-dwli1.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "TAYTÜYÜ SÜET",
+      "KOLTUK": "LONDON DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-dnb5k-i5p0y-nprs9-hew2h-dwli1.png"
+      ]
+    },
+    {
+      "ID": 112,
+      "URUN_KODU": "TT 306",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/TT 306.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-pd242-uyfwe-xfgrs-t4r1w-orchj.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "TAYTÜYÜ SÜET",
+      "KOLTUK": "LONDON DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-pd242-uyfwe-xfgrs-t4r1w-orchj.png"
+      ]
+    },
+    {
+      "ID": 113,
+      "URUN_KODU": "TT 307",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/TT 307.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-uk1it-q2fd4-2mg5i-zbpfr-tqbya.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "TAYTÜYÜ SÜET",
+      "KOLTUK": "LONDON DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-uk1it-q2fd4-2mg5i-zbpfr-tqbya.png"
+      ]
+    },
+    {
+      "ID": 115,
+      "URUN_KODU": "S 501",
+      "TUR_ADI": "SİYAH GREY DOTS",
+      "DOSYA_ADI": "images/S 501.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-2rh5y-69y17-cuztk-6i63t-23tjc.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "PARIS JAKAR KUMAŞ",
+      "KOLTUK": "PARIS DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2rh5y-69y17-cuztk-6i63t-23tjc.png"
+      ]
+    },
+    {
+      "ID": 116,
+      "URUN_KODU": "S 503",
+      "TUR_ADI": "SİYAH RED DOTS",
+      "DOSYA_ADI": "images/S 503.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-396gx-7skba-dbl2o-70vdz-3mgug.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "PARIS JAKAR KUMAŞ",
+      "KOLTUK": "PARIS DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-396gx-7skba-dbl2o-70vdz-3mgug.png"
+      ]
+    },
+    {
+      "ID": 117,
+      "URUN_KODU": "S 502",
+      "TUR_ADI": "SİYAH BEIGE DOTS",
+      "DOSYA_ADI": "images/S 502.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-mzgv0-sfvpc-zwyhr-ro5tx-m9r7i.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "PARIS JAKAR KUMAŞ",
+      "KOLTUK": "PARIS DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-mzgv0-sfvpc-zwyhr-ro5tx-m9r7i.png"
+      ]
+    },
+    {
+      "ID": 118,
+      "URUN_KODU": "S 504",
+      "TUR_ADI": "SİYAH BLUE DOTS",
+      "DOSYA_ADI": "images/S 504.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-jqe97-nfs5j-twtzz-mo274-i9ono.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "PARIS JAKAR KUMAŞ",
+      "KOLTUK": "PARIS DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-jqe97-nfs5j-twtzz-mo274-i9ono.png"
+      ]
+    },
+    {
+      "ID": 119,
+      "URUN_KODU": "S 505",
+      "TUR_ADI": "GRİ BLACK DOTS",
+      "DOSYA_ADI": "images/S 505.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-07ds9-4psnl-99tew-3x1p7-wkn5s.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "PARIS JAKAR KUMAŞ",
+      "KOLTUK": "PARIS DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-07ds9-4psnl-99tew-3x1p7-wkn5s.png"
+      ]
+    },
+    {
+      "ID": 121,
+      "URUN_KODU": "S 506",
+      "TUR_ADI": "BEJ WHITE DOTS",
+      "DOSYA_ADI": "images/S 506.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-jbse5-nv49h-ue50y-n3fb3-jo1sn.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "PARIS JAKAR KUMAŞ",
+      "KOLTUK": "PARIS DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-jbse5-nv49h-ue50y-n3fb3-jo1sn.png"
+      ]
+    },
+    {
+      "ID": 124,
+      "URUN_KODU": "LX 207",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/LX 207.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ya6a0-wtj5c-4ckzr-x1v7x-vmgni.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "X-TYPE DERİ",
+      "KOLTUK": "NEW YORK DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ya6a0-wtj5c-4ckzr-x1v7x-vmgni.png"
+      ]
+    },
+    {
+      "ID": 126,
+      "URUN_KODU": "VIP 02",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 02.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ebb78-iuo2j-ndpvq-h2w45-dnlkp.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ebb78-iuo2j-ndpvq-h2w45-dnlkp.png"
+      ]
+    },
+    {
+      "ID": 127,
+      "URUN_KODU": "VIP 72",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 72.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-tpd8j-z7r3v-1sty8-yg15g-s2nl0.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-tpd8j-z7r3v-1sty8-yg15g-s2nl0.png"
+      ]
+    },
+    {
+      "ID": 128,
+      "URUN_KODU": "VIP 84",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 84.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ic5x8-mvivk-sejlx-l3uz6-hpfcr.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ic5x8-mvivk-sejlx-l3uz6-hpfcr.png"
+      ]
+    },
+    {
+      "ID": 129,
+      "URUN_KODU": "VIP 14",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 14.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-athx6-eayuh-jvzly-dj5z3-94sbn.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-athx6-eayuh-jvzly-dj5z3-94sbn.png"
+      ]
+    },
+    {
+      "ID": 130,
+      "URUN_KODU": "VIP 04",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 04.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-f1hlf-jjvgs-p3y84-ju5ic-fesxz.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-f1hlf-jjvgs-p3y84-ju5ic-fesxz.png"
+      ]
+    },
+    {
+      "ID": 131,
+      "URUN_KODU": "VIP 16",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 16.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-cbkfj-gvxav-lew18-f39cg-boyt0.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cbkfj-gvxav-lew18-f39cg-boyt0.png"
+      ]
+    },
+    {
+      "ID": 132,
+      "URUN_KODU": "VIP 05",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/VIP 05.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-cjdyo-g1rsw-llsid-fa1ul-byn95.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cjdyo-g1rsw-llsid-fa1ul-byn95.png"
+      ]
+    },
+    {
+      "ID": 133,
+      "URUN_KODU": "VIP 17",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/VIP 17.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-zmug9-046bl-6o73x-0dhe6-zx3ur.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-zmug9-046bl-6o73x-0dhe6-zx3ur.png"
+      ]
+    },
+    {
+      "ID": 134,
+      "URUN_KODU": "VIP 08",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/VIP 08.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-wbw9x-3uc4a-8ddzo-22n6z-xn9mg.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-wbw9x-3uc4a-8ddzo-22n6z-xn9mg.png"
+      ]
+    },
+    {
+      "ID": 135,
+      "URUN_KODU": "VIP 20",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/VIP 20.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ab48p-eui41-jdjye-d2t6m-9oem6.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ab48p-eui41-jdjye-d2t6m-9oem6.png"
+      ]
+    },
+    {
+      "ID": 136,
+      "URUN_KODU": "VIP 06",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/VIP 06.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-c79fg-gpmat-lan26-fwqce-bkjtx.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-c79fg-gpmat-lan26-fwqce-bkjtx.png"
+      ]
+    },
+    {
+      "ID": 137,
+      "URUN_KODU": "VIP 18",
+      "TUR_ADI": "KIRMIZI",
+      "DOSYA_ADI": "images/VIP 18.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-lc7gr-pykc2-vfl3f-o4yen-kphv7.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-lc7gr-pykc2-vfl3f-o4yen-kphv7.png"
+      ]
+    },
+    {
+      "ID": 138,
+      "URUN_KODU": "VIP 07",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/VIP 07.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-lft9o-pq540-vh6yd-o6g6l-kt2m5.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-lft9o-pq540-vh6yd-o6g6l-kt2m5.png"
+      ]
+    },
+    {
+      "ID": 139,
+      "URUN_KODU": "VIP 19",
+      "TUR_ADI": "MAVİ",
+      "DOSYA_ADI": "images/VIP 19.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-7rbcd-b8p7p-htrx3-bh09b-73lpy.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "MADRID DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-7rbcd-b8p7p-htrx3-bh09b-73lpy.png"
+      ]
+    },
+    {
+      "ID": 140,
+      "URUN_KODU": "VIP 74",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 74.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-voq48-x7awj-3sbsq-qgl15-u17hp.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-voq48-x7awj-3sbsq-qgl15-u17hp.png"
+      ]
+    },
+    {
+      "ID": 141,
+      "URUN_KODU": "VIP 86",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 86.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-jf9gb-nqmbm-thn20-m6qd8-itjut.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-jf9gb-nqmbm-thn20-m6qd8-itjut.png"
+      ]
+    },
+    {
+      "ID": 142,
+      "URUN_KODU": "VIP 71",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 71.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-2n7tt-65kn4-bplei-5eypr-10h5a.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2n7tt-65kn4-bplei-5eypr-10h5a.png"
+      ]
+    },
+    {
+      "ID": 143,
+      "URUN_KODU": "VIP 83",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 83.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-k6ezc-posso-v8ti2-oq2ua-kjo9v.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-k6ezc-posso-v8ti2-oq2ua-kjo9v.png"
+      ]
+    },
+    {
+      "ID": 144,
+      "URUN_KODU": "VIP 75",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/VIP 75.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-3crdi-7v38v-ce407-63eaf-2p0rw.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-3crdi-7v38v-ce407-63eaf-2p0rw.png"
+      ]
+    },
+    {
+      "ID": 145,
+      "URUN_KODU": "VIP 87",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/VIP 87.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-w1fst-3kum4-94veh-3u4op-wep49.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-w1fst-3kum4-94veh-3u4op-wep49.png"
+      ]
+    },
+    {
+      "ID": 152,
+      "URUN_KODU": "LS 113",
+      "TUR_ADI": "KREM",
+      "DOSYA_ADI": "images/LS 113.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-v7u3e-xp6xr-398p3-qxh0b-uk3gy.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-v7u3e-xp6xr-398p3-qxh0b-uk3gy.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-rrlpo-v8wk0-0t0be-vhaml-r2y25.png"
+      ]
+    },
+    {
+      "ID": 152,
+      "URUN_KODU": "LS 113",
+      "TUR_ADI": "KREM",
+      "DOSYA_ADI": "images/LS 113.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-v7u3e-xp6xr-398p3-qxh0b-uk3gy.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-v7u3e-xp6xr-398p3-qxh0b-uk3gy.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-rrlpo-v8wk0-0t0be-vhaml-r2y25.png"
+      ]
+    },
+    {
+      "ID": 153,
+      "URUN_KODU": "LS 113",
+      "TUR_ADI": "KREM",
+      "DOSYA_ADI": "images/LS 113.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-rrlpo-v8wk0-0t0be-vhaml-r2y25.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-v7u3e-xp6xr-398p3-qxh0b-uk3gy.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-rrlpo-v8wk0-0t0be-vhaml-r2y25.png"
+      ]
+    },
+    {
+      "ID": 153,
+      "URUN_KODU": "LS 113",
+      "TUR_ADI": "KREM",
+      "DOSYA_ADI": "images/LS 113.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-rrlpo-v8wk0-0t0be-vhaml-r2y25.png",
+      "GRUP": "YAN GÖVDE",
+      "TİPİ": "DÜZ DERİ",
+      "KOLTUK": "NATURAL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-v7u3e-xp6xr-398p3-qxh0b-uk3gy.png",
+        "https://otomid.com/upload/koltuk-kapak-resim-rrlpo-v8wk0-0t0be-vhaml-r2y25.png"
+      ]
+    },
+    {
+      "ID": 154,
+      "URUN_KODU": "LW 201",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/LW 201.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-cl0ev-g4d95-loe1j-fdocs-bxasb.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DOT TYPE DERİ",
+      "KOLTUK": "ISTANBUL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-cl0ev-g4d95-loe1j-fdocs-bxasb.png"
+      ]
+    },
+    {
+      "ID": 155,
+      "URUN_KODU": "LW 205",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/LW 205.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-u035k-xih0z-32is9-qss2h-uddi1.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DOT TYPE DERİ",
+      "KOLTUK": "ISTANBUL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-u035k-xih0z-32is9-qss2h-uddi1.png"
+      ]
+    },
+    {
+      "ID": 156,
+      "URUN_KODU": "LW 206",
+      "TUR_ADI": "BORDO",
+      "DOSYA_ADI": "images/LW 206.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-d4m2d-hmwqp-m60p3-gya0b-chzfy.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DOT TYPE DERİ",
+      "KOLTUK": "ISTANBUL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-d4m2d-hmwqp-m60p3-gya0b-chzfy.png"
+      ]
+    },
+    {
+      "ID": 157,
+      "URUN_KODU": "LW 209",
+      "TUR_ADI": "PİŞMİŞ TOPRAK",
+      "DOSYA_ADI": "images/LW 209.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-rlk4h-v3xwu-wnwr7-uc81f-pxvhw.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DOT TYPE DERİ",
+      "KOLTUK": "ISTANBUL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-rlk4h-v3xwu-wnwr7-uc81f-pxvhw.png"
+      ]
+    },
+    {
+      "ID": 158,
+      "URUN_KODU": "LW 211",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/LW 211.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-8ycwc-cdpyn-hqrm1-bm0q9-78mdu.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DOT TYPE DERİ",
+      "KOLTUK": "ISTANBUL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-8ycwc-cdpyn-hqrm1-bm0q9-78mdu.png"
+      ]
+    },
+    {
+      "ID": 159,
+      "URUN_KODU": "LW 213",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/LW 213.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-csysv-h99m6-muaej-gijos-c454b.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "DOT TYPE DERİ",
+      "KOLTUK": "ISTANBUL DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-csysv-h99m6-muaej-gijos-c454b.png"
+      ]
+    },
+    {
+      "ID": 160,
+      "URUN_KODU": "VIP 42",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 42.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-9ul3g-dbxxt-iywp6-ck90d-85ygx.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-9ul3g-dbxxt-iywp6-ck90d-85ygx.png"
+      ]
+    },
+    {
+      "ID": 161,
+      "URUN_KODU": "VIP 54",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 54.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-9hgn6-d0vji-ikyaz-c94l4-8vr1o.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-9hgn6-d0vji-ikyaz-c94l4-8vr1o.png"
+      ]
+    },
+    {
+      "ID": 162,
+      "URUN_KODU": "VIP 44",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 44.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-5mi7c-a4z2o-foqv1-9d759-5xtku.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-5mi7c-a4z2o-foqv1-9d759-5xtku.png"
+      ]
+    },
+    {
+      "ID": 163,
+      "URUN_KODU": "VIP 56",
+      "TUR_ADI": "Bilinmeyen",
+      "DOSYA_ADI": "images/VIP 56.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-2ejzq-6zqs9-cgxjm-658uv-2sv9e.png",
+      "GRUP": null,
+      "TİPİ": null,
+      "KOLTUK": null,
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-2ejzq-6zqs9-cgxjm-658uv-2sv9e.png"
+      ]
+    },
+    {
+      "ID": 164,
+      "URUN_KODU": "VIP 41",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 41.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-ks4c3-o9i7f-uujxu-niu91-j3epl.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-ks4c3-o9i7f-uujxu-niu91-j3epl.png"
+      ]
+    },
+    {
+      "ID": 165,
+      "URUN_KODU": "VIP 53",
+      "TUR_ADI": "SİYAH",
+      "DOSYA_ADI": "images/VIP 53.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-jx74t-ngkw4-t0lsh-mpy1p-ibhh9.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-jx74t-ngkw4-t0lsh-mpy1p-ibhh9.png"
+      ]
+    },
+    {
+      "ID": 166,
+      "URUN_KODU": "VIP 45",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/VIP 45.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-xh6di-20j9v-7kk07-19vbf-qvgsw.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-xh6di-20j9v-7kk07-19vbf-qvgsw.png"
+      ]
+    },
+    {
+      "ID": 167,
+      "URUN_KODU": "VIP 57",
+      "TUR_ADI": "KOYU GRİ",
+      "DOSYA_ADI": "images/VIP 57.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-uhcab-qwr5n-2jsq1-z9178-tvnnt.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-uhcab-qwr5n-2jsq1-z9178-tvnnt.png"
+      ]
+    },
+    {
+      "ID": 168,
+      "URUN_KODU": "VIP 48",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/VIP 48.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-fg6s8-jxjmk-oikdx-i7vo6-eug4r.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-fg6s8-jxjmk-oikdx-i7vo6-eug4r.png"
+      ]
+    },
+    {
+      "ID": 169,
+      "URUN_KODU": "VIP 60",
+      "TUR_ADI": "BEJ",
+      "DOSYA_ADI": "images/VIP 60.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-lkyk3-p28ff-ym97t-objh0-lq5qk.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-lkyk3-p28ff-ym97t-objh0-lq5qk.png"
+      ]
+    },
+    {
+      "ID": 170,
+      "URUN_KODU": "VIP 49",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/VIP 49.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-7a6aw-btj5b-gckqp-a1v8q-6mgoh.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-7a6aw-btj5b-gckqp-a1v8q-6mgoh.png"
+      ]
+    },
+    {
+      "ID": 171,
+      "URUN_KODU": "VIP 61",
+      "TUR_ADI": "KIRIK BEYAZ",
+      "DOSYA_ADI": "images/VIP 61.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-nkci2-s3rde-zns4s-rc1fw-mqnyj.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "AMSTERDAM DESIGN",
+      "KAPAK_URL": [
+        "https://otomid.com/upload/koltuk-kapak-resim-nkci2-s3rde-zns4s-rc1fw-mqnyj.png"
+      ]
+    },
+    {
+      "ID": 172,
+      "URUN_KODU": "SFR 101",
+      "TUR_ADI": "EVEREST",
+      "DOSYA_ADI": "images/SFR 101.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-kuofr-ob1a2-uy21f-nlccn-j6xt7.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-kuofr-ob1a2-uy21f-nlccn-j6xt7.jpg"]
+    },
+    {
+      "ID": 173,
+      "URUN_KODU": "SFR 102",
+      "TUR_ADI": "HIMALAYAS",
+      "DOSYA_ADI": "images/SFR 102.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-vqj9x-xfq49-3wxyn-qo76y-uaumf.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-vqj9x-xfq49-3wxyn-qo76y-uaumf.jpg"]
+    },
+    {
+      "ID": 174,
+      "URUN_KODU": "SFR 103",
+      "TUR_ADI": "ALPS",
+      "DOSYA_ADI": "images/SFR 103.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-vzsbl-xe46q-3x5qa-qnf8i-u81o2.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-vzsbl-xe46q-3x5qa-qnf8i-u81o2.jpg"]
+    },
+    {
+      "ID": 175,
+      "URUN_KODU": "SFR 104",
+      "TUR_ADI": "FUJI",
+      "DOSYA_ADI": "images/SFR 104.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-nrd1v-s8rz6-ztsnk-ri1xt-m3nec.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-nrd1v-s8rz6-ztsnk-ri1xt-m3nec.jpg"]
+    },
+    {
+      "ID": 176,
+      "URUN_KODU": "SFR 105",
+      "TUR_ADI": "MONT BLANC",
+      "DOSYA_ADI": "images/SFR 105.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-5uk7x-9bq3a-eyxvn-8k85y-45vlf.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-5uk7x-9bq3a-eyxvn-8k85y-45vlf.jpg"]
+    },
+    {
+      "ID": 177,
+      "URUN_KODU": "SFR 106",
+      "TUR_ADI": "SIERRA",
+      "DOSYA_ADI": "images/SFR 106.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-iznrz-me1l8-sx2dm-lncnv-h9x3e.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-iznrz-me1l8-sx2dm-lncnv-h9x3e.jpg"]
+    },
+    {
+      "ID": 178,
+      "URUN_KODU": "SFR 107",
+      "TUR_ADI": "SAHARA",
+      "DOSYA_ADI": "images/SFR 107.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-tlq0y-z3az6-2nbnk-zclxt-tq7ec.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-tlq0y-z3az6-2nbnk-zclxt-tq7ec.jpg"]
+    },
+    {
+      "ID": 179,
+      "URUN_KODU": "SFR 108",
+      "TUR_ADI": "THAR",
+      "DOSYA_ADI": "images/SFR 108.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-pmn9p-u4151-xo2ze-tdc7m-owxn6.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-pmn9p-u4151-xo2ze-tdc7m-owxn6.jpg"]
+    },
+    {
+      "ID": 180,
+      "URUN_KODU": "SFR 109",
+      "TUR_ADI": "ARCTIC",
+      "DOSYA_ADI": "images/SFR 109.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-5ic7w-90p3a-ekrvo-8905z-4ymlg.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-5ic7w-90p3a-ekrvo-8905z-4ymlg.jpg"]
+    },
+    {
+      "ID": 181,
+      "URUN_KODU": "SFR 110",
+      "TUR_ADI": "GOBI",
+      "DOSYA_ADI": "images/SFR 110.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-hmmgv-l40c6-ro13k-kdbet-gwzvc.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-hmmgv-l40c6-ro13k-kdbet-gwzvc.jpg"]
+    },
+    {
+      "ID": 182,
+      "URUN_KODU": "SFR 111",
+      "TUR_ADI": "KALAHARI",
+      "DOSYA_ADI": "images/SFR 111.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-jkhyn-n2yrw-tmzid-mb5tl-iqs85.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-jkhyn-n2yrw-tmzid-mb5tl-iqs85.jpg"]
+    },
+    {
+      "ID": 183,
+      "URUN_KODU": "SFR 112",
+      "TUR_ADI": "MOJAVE",
+      "DOSYA_ADI": "images/SFR 112.png",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-7kbvi-b2opv-hnpg7-bcwsf-7ql7w.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "KAMUFLAJ SU İTİCİ KUMAŞ",
+      "KOLTUK": "SAFARI DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-7kbvi-b2opv-hnpg7-bcwsf-7ql7w.jpg"]
+    },
+    {
+      "ID": 185,
+      "URUN_KODU": "VIP 80",
+      "TUR_ADI": "FİLDİSİ",
+      "DOSYA_ADI": "images/VIP 80.jpg",
+      "GORSEL_URL": "https://otomid.com/upload/koltuk-aci-resim-nzf74-seu2f-zxvvu-rn441-m8rkl.png",
+      "GRUP": "ORTA KISIM",
+      "TİPİ": "NAKIŞLI DERİ-KUMAŞ",
+      "KOLTUK": "TOKYO DESIGN",
+      "KAPAK_URL": ["https://otomid.com/upload/koltuk-kapak-resim-hqngl-lf1bz-rw23a-kpcdi-gaxu2.jpg"]
+    }
+  ]

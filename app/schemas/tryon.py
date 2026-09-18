@@ -52,6 +52,10 @@ class TryOnCompositeRequest(BaseModel):
     product_layers: ProductLayers
     product_reference: ProductReference | None = None
     vehicle_info: VehicleInfo | None = None
+    layer_material_types: dict[str, str] = Field(default_factory=dict)
+    layer_is_direct_swatch: dict[str, bool] = Field(default_factory=dict)
+    layer_product_codes: dict[str, str] = Field(default_factory=dict)
+    layer_color_names: dict[str, str] = Field(default_factory=dict)
     seat_target: Literal[
         "auto",
         "front_driver",

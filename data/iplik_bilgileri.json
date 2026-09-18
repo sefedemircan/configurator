@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "iplik_kodu": "IP14",
+      "iplik_rengi": "Beyaz",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-kckc2-ovx7e-uewxs-n399w-jpypj.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-z5um4-0n7hg-5788v-wzij2-yh4wm.jpg"
+    },
+    {
+      "id": 6,
+      "iplik_kodu": "IP09",
+      "iplik_rengi": "Siyah",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-54gzs-9nut2-f7yjg-8z4vo-5hra8.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-ssb4r-y9pw2-0urrf-viw1n-r4lh7.jpg"
+    },
+    {
+      "id": 7,
+      "iplik_kodu": "IP08",
+      "iplik_rengi": "Pişmiş Toprak",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-9p298-d7f4k-jsgyx-dgr66-91cmr.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-ohupo-tw6l0-qj7ce-s8hnm-nu336.jpg"
+    },
+    {
+      "id": 8,
+      "iplik_kodu": "IP07",
+      "iplik_rengi": "Mavi",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-bm16z-g4e28-lofum-fdp4v-bxbke.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-e4diw-imrdb-n6s4p-hz1fq-dhnyh.jpg"
+    },
+    {
+      "id": 9,
+      "iplik_kodu": "IP06",
+      "iplik_rengi": "Krem",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-qetkz-2z5f8-7g67l-15ghu-qs2qd.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-qbfcc-1vu7o-6evw2-0339a-zoppv.jpg"
+    },
+    {
+      "id": 10,
+      "iplik_kodu": "IP05",
+      "iplik_rengi": "Kırmızı",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-gk7ii-k3kdv-pnl48-jcyfg-fqhy0.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-fctzt-jy6s4-of7ih-i4gup-ep299.jpg"
+    },
+    {
+      "id": 11,
+      "iplik_kodu": "IP03",
+      "iplik_rengi": "Gri",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-vtcku-xbrf5-3ys6j-qk0hs-u5mqb.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-fdntv-jy0n6-of1ek-i4bpt-epq5c.jpg"
+    },
+    {
+      "id": 12,
+      "iplik_kodu": "IP02",
+      "iplik_rengi": "Füme",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-xrvcp-28771-7t8we-1hi9m-q24p6.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-tz4xf-zfhvs-1wil5-yotzd-s9ecq.jpg"
+    },
+    {
+      "id": 13,
+      "iplik_kodu": "IP01",
+      "iplik_rengi": "Bordo",
+      "gorsel_url": "https://otomid.com/upload/iplik-turu-oihcn-t0y8w-xkzwd-t96al-ovtr5.png",
+      "kapak_url": "https://otomid.com/upload/iplik-rengi-2xbe3-6go9e-b0p1t-5pwb0-1blsk.jpg"
+    }
+
+  ]
