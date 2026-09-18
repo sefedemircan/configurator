@@ -1,6 +1,4 @@
-# Otom Virtual Try-On API
-
-Generatif sanal deneme servisi: kullanıcının araç içi fotoğrafındaki **görünür tüm koltuklara** (ön, arka veya 4 koltuk) OpenRouter Gemini Image ile kılıf uygular.
+# Virtual Try-On API
 
 ## Quick start
 
